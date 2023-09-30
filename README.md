@@ -51,19 +51,25 @@ The script generates data for different row counts (20, 100, 2000, and 6000) and
 
 ## Files
 
-1. **`script_name.py`**
-   - The main Python script.
+1. **`insertion_sort.py`**
+   - Uses Insertion Sort Algorithm to sort the elements.
 
-2. **`arr{count}.txt`**
+2. **`merge_sort.py`**
+   - Uses Merge Sort Algorithm to sort the elements.
+     
+3. **`quick_sort.py`**
+   - Uses Quick Sort Algorithm to sort the elements.
+   
+5. **`arr{count}.txt`**
    - Files containing the original unsorted data for each dataset.
 
-3. **`arrIS_O_{count}.txt`**
+6. **`arrIS_O_{count}.txt`**
    - Files containing the sorted data using insertion sort along with the time taken for sorting.
 
-4. **`arrMR_O_{count}.txt`**
+7. **`arrMR_O_{count}.txt`**
    - Files containing the sorted data using merge sort along with the time taken for sorting.
 
-5. **`arrQK_O_{count}.txt`**
+8. **`arrQK_O_{count}.txt`**
    - Files containing the sorted data using quick sort along with the time taken for sorting.
 
 ## Dependencies
