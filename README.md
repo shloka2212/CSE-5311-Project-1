@@ -44,7 +44,7 @@ The script generates data for different row counts (20, 100, 2000, and 6000) and
 2. Run the script using the following command:
 
     ```bash
-    python script_name.py
+    python insertion_sort.py
     ```
 
 3. Check the generated files for the original and sorted data.
