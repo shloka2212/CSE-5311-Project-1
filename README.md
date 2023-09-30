@@ -46,8 +46,21 @@ The script generates data for different row counts (20, 100, 2000, and 6000) and
     ```bash
     python insertion_sort.py
     ```
-
+    
 3. Check the generated files for the original and sorted data.
+4. Similarly, run the second script using the following command:
+
+   ```bash
+   python merge_sort.py
+   ```
+   
+5. Check the generated files with sorted data.
+6. Similarly, run the third script using the following command:
+   ```bash
+   python quick_sort.py
+   ```
+   
+7. Check the generated files with sorted data.   
 
 ## Files
 
