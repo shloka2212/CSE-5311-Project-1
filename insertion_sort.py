@@ -51,6 +51,6 @@ for count in row_counts:
         # Write sorted data rows
         for row in data:
             file.write(' '.join(map(str, row)) + '\n')
-        file.write(f"{elapsedTime:.6f} seconds")
+        file.write(f"Sorting time: {elapsedTime:.6f} seconds")
 
     print(f"File '{outputFile}' generated successfully.")
