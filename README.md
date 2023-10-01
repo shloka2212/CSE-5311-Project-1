@@ -29,18 +29,16 @@ The script generates data for different row counts (20, 100, 2000, and 6000) and
 2. Calculates the sum for each row.
 3. Appends the sum to the row.
 4. Writes the original data to a file (`arr{count}.txt`).
-5. Measures the time taken for insertion sort using the `timeit` module.
-6. Sorts the data using insertion sort and writes the sorted data to a new file (`arrIS_O_{count}.txt`).
-7. Measures the time taken for merge sort using the `timeit` module.
-8. Sorts the data using merge sort and writes the sorted data to a new file (`arrMR_O_{count}.txt`).
-9. Measures the time taken for quick sort using the `timeit` module.
-10. Reads the original data from the file (`arr{count}.txt`).
-11. Sorts the data using quick sort.
-12. Writes the sorted data and sorting time to a new file (`arrQK_O_{count}.txt`).
+5. Reads the original data from the file (`arr{count}.txt`) than Sorts the data using insertion sort and writes the sorted data to a new file (`arrIS_O_{count}.txt`).
+6. Measures the time taken for insertion sort using the `timeit` module.
+7. Reads the original data from the file (`arr{count}.txt`) than Sorts the data using merge sort and writes the sorted data to a new file (`arrMR_O_{count}.txt`).
+8. Measures the time taken for merge sort using the `timeit` module.
+9. Reads the original data from the file (`arr{count}.txt`) than Sorts the data using quick sort and writes the sorted data to a new file (`arrQK_O_{count}.txt`).
+10. Measures the time taken for quick sort using the `timeit` module.
 
 ## Usage
 
-1. Ensure you have Python installed on your system.
+1. Ensure you have [Python](https://www.python.org/downloads/) installed on your system.
 2. Run the script using the following command:
 
     ```bash
@@ -65,13 +63,13 @@ The script generates data for different row counts (20, 100, 2000, and 6000) and
 
 ## Files
 
-1. **`insertion_sort.py`**
+1. **[insertion_sort.py](insertion_sort.py)**
    - Uses Insertion Sort Algorithm to sort the elements.
 
-2. **`merge_sort.py`**
+2. **[merge_sort.py](merge_sort.py)**
    - Uses Merge Sort Algorithm to sort the elements.
      
-3. **`quick_sort.py`**
+3. **[quick_sort.py](quick_sort.py)**
    - Uses Quick Sort Algorithm to sort the elements.
    
 5. **`arr{count}.txt`**
@@ -88,8 +86,8 @@ The script generates data for different row counts (20, 100, 2000, and 6000) and
 
 ## Dependencies
 
-- `random` module (for random number generation).
-- `timeit` module (for measuring execution time).
+- [`random`](https://docs.python.org/3/library/random.html) module (for random number generation).
+- [`timeit`](https://docs.python.org/3/library/timeit.html#timeit-examples) module (for measuring execution time).
 
 ## Notes
 
